@@ -11,16 +11,8 @@ define('MAX_COLS', 20);
 
 $step = isset($_POST['step']) ? (int) $_POST['step'] : 0;
 ?>
-<!doctype html>
-<html lang="id">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Soal 1 PHP</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
-<body>
 <div class="container my-5">
 
 <?php
@@ -140,7 +132,5 @@ elseif ($step === 2):
 endif;
 ?>
 
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+
